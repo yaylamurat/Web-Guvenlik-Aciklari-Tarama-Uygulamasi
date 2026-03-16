@@ -14,7 +14,7 @@ import re
 class AIVulnerabilityScanner:
     def __init__(self):
         self.invoke_url = "https://integrate.api.nvidia.com/v1/chat/completions"
-        self.api_key = "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"
+        self.api_key = "nvapi-KG **********" //API ANAHTARINIZI BURAYA EKLEMENİZ GEREKİYOR.
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Accept": "application/json",
